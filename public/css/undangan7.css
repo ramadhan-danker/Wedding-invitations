@@ -1,0 +1,422 @@
+/* body */
+.background {
+    background-image: url(https://ulemulem.site/wp-content/uploads/2022/06/awdaaaw.png);
+    width: 500px;
+    background-position: 0px -300px;
+    height: 150vh;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -999;
+    margin-left: 425px;
+}
+
+/* sampul */
+.sampul h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 28px;
+    width: 300px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.sampul img {
+    margin-top: 20px;
+    width: 236px;
+    height: 248px;
+}
+.sampul h5 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 39px;
+    color: #b3326f;
+    margin-top: 20px;
+}
+.sampul .sambutan {
+    margin-top: 20px;
+}
+.sampul p {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 400px;
+    margin-top: 48px;
+}
+.sampul .sambutan {
+    font-weight: 500;
+}
+.sampul button {
+    border: 0ch;
+    background: #ffd3df;
+    width: 195px;
+    height: 38px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.sampul button span {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* doa */
+
+.waves {
+    height: 100px;
+}
+
+.doa {
+    background-color: #ffabb8;
+    color: white;
+    height: 300px;
+    margin-top: 195px;
+}
+.doa p {
+    width: 1020px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 110px;
+    font-family: "Roboto Slab", serif;
+}
+
+/* pasangan */
+.pasangan p {
+    width: 300px;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.pasangan .sambutan {
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+.pasangan h5 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 48px;
+    color: #b3326f;
+    margin-top: 20px;
+}
+.pasangan h3 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 39px;
+    margin-top: 47px;
+    margin-bottom: 40px;
+}
+
+/* Acara */
+.acara {
+    margin-top: 207px;
+    background-image: url(https://ulemulem.site/wp-content/uploads/2022/06/cvbb-scaled-2.jpg);
+    width: 500px;
+}
+.acara .header {
+    width: 260px;
+    padding-top: 280px;
+}
+.acara p {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 400px;
+}
+.acara span {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 300px;
+}
+.acara h5 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: #161d51;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.acara img {
+    filter: contrast(0%);
+    margin-top: 46px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 190px;
+}
+.acara .lokasi {
+    margin-top: 30px;
+    width: 300px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+}
+.acara .maps {
+    border: 4px solid #ffabb8;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.acara button {
+    width: 203px;
+    height: 50px;
+    border: 2px solid #3b4fe4;
+    border-radius: 10px;
+    background: #ffabb8;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 55px;
+    margin-bottom: 110px;
+}
+
+/* story */
+.story {
+    height: 281px;
+    width: 495px;
+    background-image: url(https://ulemulem.site/wp-content/plugins/elementor/assets/images/placeholder.png);
+    background-size: 500px 371px;
+    margin-left: 430px;
+}
+.story h5 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 48px;
+    color: #b3326f;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
+
+/* gallery */
+
+.galery {
+    background-image: url(https://ulemulem.site/wp-content/uploads/2022/06/cvbb-scaled-2.jpg);
+    width: 500px;
+    height: 1400px;
+}
+.galery .photo {
+    width: 400px;
+}
+.galery .photo .row .col-6 img {
+    margin-top: 17px;
+}
+.galery h5 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 48px;
+    color: #b3326f;
+    padding-top: 80px;
+}
+
+/* protokol */
+.protokol {
+    background: #ffabb8;
+    height: 748px;
+}
+.protokol .body {
+    width: 990px;
+}
+.protokol h1 {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 200;
+    font-size: 75px;
+    color: white;
+    line-height: 60px;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 1);
+    padding-top: 125px;
+}
+.protokol .row {
+    margin-top: 30px;
+}
+.protokol .col-4 {
+    width: 310px;
+}
+.protokol img {
+    filter: brightness(106%) contrast(183%) saturate(0%) blur(0px);
+    width: 108px;
+}
+.protokol h5 {
+    font-size: 23px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    margin-top: 9px;
+    letter-spacing: 1px;
+}
+
+/* Wdding Gift */
+.gift {
+    background-image: url(https://ulemulem.site/wp-content/uploads/2022/06/cvbb-scaled-1.jpg);
+    background-position: -10px 0px;
+}
+.gift h5 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 48px;
+    color: #b3326f;
+    padding-top: 30px;
+}
+.gift p {
+    font-family: "Alata", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 659px;
+}
+
+/* penutup */
+.penutup {
+    background-image: url(https://ulemulem.site/wp-content/uploads/2022/06/cvbb-scaled-1.jpg);
+    margin-top: -20px;
+    background-position: -10px 0px;
+}
+.penutup .header {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 1000px;
+    padding-top: 165px;
+}
+.penutup p {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 1000px;
+    padding-bottom: 20px;
+}
+.penutup img {
+    margin-top: 46px;
+}
+.penutup h5 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 60px;
+    color: #b3326f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* kartu ucapan */
+.ucapan {
+    background-image: url(https://ulemulem.site/wp-content/uploads/2022/06/cvbb-scaled-1.jpg);
+    margin-top: -20px;
+}
+.ucapan .header {
+    width: 1090px;
+    height: 63px;
+    background-color: #ffabb8;
+    border-radius: 0px 0px 15px 15px;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    color: white;
+}
+.ucapan .card-ucapan {
+    width: 720px;
+}
+.ucapan .card-ucapan label {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin: 20px 0 20px 0;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+.ucapan .card-ucapan input {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    height: 68px;
+}
+.ucapan .card-ucapan .input-ucapan {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    height: 144px;
+}
+.ucapan .card-ucapan .input-ucapan::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+}
+.ucapan .card-ucapan input::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+}
+.ucapan p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin: 20px 0 20px 0;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+.ucapan .card-ucapan .check .form-check-input {
+    height: 13px;
+    width: 13px;
+    margin-top: 5px;
+}
+.ucapan .card-ucapan .check2 .form-check-input {
+    height: 13px;
+    width: 13px;
+    margin-top: 5px;
+}
+.ucapan .card-ucapan .check ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.ucapan .card-ucapan .check .form-check-label {
+    margin: 0 10px 0 0;
+}
+.ucapan .card-ucapan .check2 .form-check-label {
+    margin: 0 0 0 0;
+}
+.ucapan .card-ucapan ul li {
+    list-style: none;
+    margin-left: -30px;
+    margin-bottom: 20px;
+}
+.ucapan button {
+    border: 0ch;
+    border-radius: 5px;
+    width: 93px;
+    height: 50px;
+    color: white;
+    background: #616161;
+    font-weight: 500;
+    margin-left: 628px;
+    margin-top: 16px;
+    margin-bottom: 45px;
+}
+
+/* play */
+.play {
+    height: 138px;
+    background-color: white;
+}
+.play button {
+    background: #ffd3da;
+    color: white;
+    width: 34px;
+    height: 34px;
+    border: 0ch;
+    margin-left: 115px;
+    margin-top: 13px;
+}
+
+/* menu */
+.menu {
+    height: 76px;
+    width: 380px;
+    background: #ffd3da;
+    bottom: 0;
+    left: 485px;
+    position: fixed;
+}
+.menu .card-menu {
+    width: 66px;
+    height: 66px;
+    background: #ffd3da;
+    margin: 5px 5px 0 5px;
+    box-shadow: 0 0 5px white;
+    border-radius: 10px;
+}
+.menu .card-menu img {
+    filter: brightness(0%) contrast(181%) saturate(106%) blur(0px);
+}

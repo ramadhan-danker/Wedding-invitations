@@ -1,0 +1,299 @@
+.sampul h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 28px;
+    width: 300px;
+    font-weight: 600;
+    margin-top: 200px;
+}
+.sampul img {
+    margin-top: 20px;
+    width: 146px;
+    height: 222px;
+}
+.sampul h5 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 39px;
+    color: #161d51;
+    margin-top: 20px;
+}
+.sampul p {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 400px;
+    margin-top: 48px;
+}
+
+/* doa */
+.waves {
+    height: 100px;
+}
+
+.doa {
+    background-color: #161d51;
+    color: white;
+    height: 303px;
+    margin-top: 200px;
+}
+.doa p {
+    width: 1020px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 110px;
+    font-family: "Roboto Slab", serif;
+}
+
+/* pasangan */
+.pasangan p {
+    width: 300px;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.pasangan .sambutan {
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+.pasangan h5 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 48px;
+    color: #161d51;
+    margin-top: 20px;
+}
+.pasangan h3 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 39px;
+    margin-top: 47px;
+    margin-bottom: 40px;
+}
+
+/* Acara */
+.acara {
+    margin-top: 207px;
+}
+.acara .header {
+    width: 260px;
+}
+.acara p {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 400px;
+}
+.acara span {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 300px;
+}
+.acara h5 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: #161d51;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.acara img {
+    filter: contrast(0%);
+    margin-top: 46px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 190px;
+}
+.acara .lokasi {
+    margin-top: 30px;
+    width: 300px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+}
+.acara .maps {
+    border: 4px solid #161d51;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.acara button {
+    width: 203px;
+    height: 50px;
+    border: 2px solid #3b4fe4;
+    border-radius: 10px;
+    background: #161d51;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 55px;
+    margin-bottom: 110px;
+}
+
+/* protokol */
+.protokol {
+    background: #161d51;
+    height: 748px;
+    margin-top: 100px;
+}
+.protokol .body {
+    width: 990px;
+}
+.protokol h1 {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 200;
+    font-size: 75px;
+    color: white;
+    line-height: 60px;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 1);
+    padding-top: 125px;
+}
+.protokol .row {
+    margin-top: 30px;
+}
+.protokol .col-4 {
+    width: 310px;
+}
+.protokol img {
+    filter: brightness(106%) contrast(183%) saturate(0%) blur(0px);
+    width: 108px;
+}
+.protokol h5 {
+    font-size: 23px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    margin-top: 9px;
+    letter-spacing: 1px;
+}
+
+/* Wdding Gift */
+.gift h5 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 48px;
+    color: #161d51;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.gift p {
+    font-family: "Alata", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 659px;
+}
+
+/* penutup */
+.penutup {
+    margin-top: 165px;
+}
+.penutup p {
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 1000px;
+}
+.penutup img {
+    margin-top: 46px;
+}
+.penutup h5 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-size: 60px;
+    color: #161d51;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* play */
+.play {
+    height: 138px;
+}
+.play button {
+    background: #161d51;
+    color: white;
+    width: 34px;
+    height: 34px;
+    border: 0ch;
+    margin-left: 115px;
+    margin-top: 13px;
+}
+
+/* kartu ucapan */
+.ucapan .header {
+    width: 1090px;
+    height: 63px;
+    background-color: #161d51;
+    border-radius: 0px 0px 15px 15px;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    color: white;
+}
+.ucapan .card-tandahadir {
+    height: 256px;
+    width: 1118px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ucapan .card-tandahadir p {
+    font-family: "Open Sans", sans-serif;
+    color: #585858;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ucapan .card-tandahadir .hadir {
+    width: 142px;
+    height: 82px;
+    background-color: #3d9a62;
+    margin-right: 16px;
+    border-radius: 7px;
+    color: white;
+}
+.ucapan .card-tandahadir .tidak-hadir {
+    width: 142px;
+    height: 82px;
+    background-color: #d90a11;
+    border-radius: 7px;
+    color: white;
+}
+.ucapan .card-tandahadir .hadir p,
+.ucapan .card-tandahadir .tidak-hadir p {
+    color: white;
+    margin-top: -10px;
+    font-weight: 300;
+}
+.ucapan .card-tandahadir .coment {
+    font-weight: 400;
+    color: #585858;
+    margin-left: 10px;
+}
+
+/* menu */
+.menu {
+    height: 76px;
+    width: 380px;
+    background: #dce2f1;
+    bottom: 0;
+    left: 485px;
+    position: fixed;
+    z-index: 9999;
+}
+.menu .card-menu {
+    width: 66px;
+    height: 66px;
+    background: #dce2f1;
+    margin: 5px 5px 0 5px;
+    box-shadow: 0 0 5px white;
+    border-radius: 10px;
+}
+.menu .card-menu img {
+    filter: brightness(0%) contrast(181%) saturate(106%) blur(0px);
+}

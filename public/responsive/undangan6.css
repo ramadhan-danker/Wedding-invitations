@@ -1,0 +1,179 @@
+@media screen and (max-width: 350px) {
+    /* sampul */
+    .sampul {
+        width: 350px;
+    }
+    .sampul h1 {
+        font-size: 22px;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+    .sampul img {
+        width: 238px;
+        height: 356px;
+        margin-top: 20px;
+    }
+    .sampul h5 {
+        font-size: 37px;
+    }
+    .sampul p {
+        font-size: 20px;
+        width: 350px;
+        margin-top: 10px;
+    }
+
+    /* doa */
+    .doa {
+        height: 234px;
+        width: 350px;
+        margin-top: -30px;
+    }
+    .doa p {
+        width: 300px;
+        font-size: 11px;
+        padding-top: 60px;
+    }
+
+    /* pasangan */
+    .pasangan .sambutan {
+        font-size: 15px;
+        width: 300px;
+    }
+    .pasangan img {
+        width: 210px;
+        height: 373px;
+    }
+    .pasangan h5 {
+        font-size: 37px;
+    }
+    .pasangan p {
+        font-size: 13px;
+    }
+
+    /* acara */
+    .acara p {
+        font-size: 15px;
+        width: 300px;
+    }
+    .acara span {
+        font-size: 15px;
+    }
+    .acara h5 {
+        font-size: 25px;
+    }
+    .acara img {
+        width: 95px;
+        height: 95px;
+    }
+    .acara .maps {
+        width: 300px;
+        height: 300px;
+        border: 3px solid #161d51;
+        margin-top: 30px;
+        margin-left: 25px;
+        border-radius: 10px;
+    }
+    .acara .maps iframe {
+        width: 294px;
+        height: 294px;
+        margin-top: 0;
+        border-radius: 7px;
+    }
+
+    /* protokol */
+    .protokol {
+        margin-top: 0px;
+        width: 350px;
+        height: 556px;
+    }
+    .protokol .body {
+        width: 350px;
+    }
+    .protokol h1 {
+        font-size: 45px;
+        padding-top: 30px;
+    }
+    .protokol .col-4 {
+        width: 116px;
+    }
+    .protokol .col-4 img {
+        width: 59px;
+    }
+    .protokol .col-4 h5 {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    /* gift */
+    .gift h5 {
+        font-size: 40px;
+    }
+    .gift p {
+        font-size: 14px;
+        width: 300px;
+    }
+
+    /* penutup */
+    .penutup p {
+        font-size: 15px;
+        width: 300px;
+    }
+    .penutup img {
+        width: 214px;
+        height: 380px;
+    }
+    .penutup h5 {
+        font-size: 35px;
+    }
+
+    /* ucapan */
+    .ucapan .header {
+        font-size: 15px;
+        width: 300px;
+    }
+    .ucapan .card-tandahadir {
+        width: 308px;
+    }
+    .ucapan .card-tandahadir .hadir {
+        width: 97px;
+        height: 68px;
+    }
+    .ucapan .card-tandahadir .tidak-hadir {
+        width: 97px;
+        height: 68px;
+    }
+    .ucapan .card-tandahadir .tidak-hadir p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .ucapan .card-tandahadir .coment {
+        font-weight: 300;
+        margin-top: 20px;
+    }
+
+    /* play */
+    .play button {
+        margin-left: 10px;
+    }
+
+    /* menu */
+    .menu {
+        height: 76px;
+        width: 350px;
+        background: #dce2f1;
+        bottom: 0;
+        left: 0;
+    }
+    .menu .card-menu {
+        width: 56px;
+        height: 56px;
+        background: #dce2f1;
+        margin: 10px 5px 0 5px;
+        box-shadow: 0 0 5px rgb(29, 15, 92);
+        border-radius: 10px;
+    }
+    .menu .card-menu img {
+        filter: brightness(0%) contrast(181%) saturate(106%) blur(0px);
+        width: 46px;
+    }
+}

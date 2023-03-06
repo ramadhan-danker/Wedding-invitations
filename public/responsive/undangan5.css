@@ -1,0 +1,220 @@
+@media screen and (max-width: 350px) {
+    /* sampul */
+    .sampul {
+        width: 350px;
+    }
+    .sampul img {
+        width: 168px;
+        height: 160px;
+        margin-top: 50px;
+    }
+    .sampul h5 {
+        font-size: 37px;
+    }
+    .sampul p {
+        font-size: 15px;
+        width: 350px;
+    }
+
+    /* countdown */
+    .countdown {
+        width: 350px;
+        margin-bottom: 50px;
+    }
+    .card-count {
+        background: #623338;
+        width: 75px;
+        height: 85px;
+        color: white;
+        margin: 0 5px 0 5px;
+        border-radius: 10px;
+    }
+    .countdown .card-count p {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 15px;
+        padding-bottom: 10px;
+    }
+    .countdown .card-count h5 {
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    /* isi */
+    .isi h6 {
+        font-size: 13px;
+        margin-top: 70px;
+    }
+    .isi img {
+        width: 168px;
+        height: 160px;
+    }
+    .isi h5 {
+        font-size: 37px;
+    }
+    .isi h4 {
+        font-size: 13px;
+    }
+
+    /* doa */
+    .doa {
+        height: 234px;
+        width: 350px;
+    }
+    .doa p {
+        width: 300px;
+        font-size: 11px;
+        padding-top: 60px;
+    }
+
+    /* pasangan */
+    .pasangan .sambutan {
+        font-size: 15px;
+        width: 300px;
+    }
+    .pasangan img {
+        width: 144px;
+        height: 168px;
+    }
+    .pasangan h5 {
+        font-size: 37px;
+    }
+    .pasangan p {
+        font-size: 13px;
+    }
+
+    /* acara */
+    .acara p {
+        font-size: 15px;
+        width: 300px;
+    }
+    .acara span {
+        font-size: 15px;
+    }
+    .acara h5 {
+        font-size: 25px;
+    }
+    .acara img {
+        width: 98px;
+        height: 98px;
+    }
+    .acara .maps {
+        width: 300px;
+        height: 300px;
+        border: 3px solid #663636;
+        margin-top: 30px;
+        margin-left: 25px;
+        border-radius: 10px;
+    }
+    .acara .maps iframe {
+        width: 294px;
+        height: 294px;
+        margin-top: 0;
+        border-radius: 7px;
+    }
+
+    /* story */
+    .story {
+        height: 100px;
+    }
+    .story h5 {
+        font-size: 39px;
+        margin-bottom: 0px;
+    }
+
+    /* galery */
+    .galery h5 {
+        font-size: 39px;
+        margin-top: 0px;
+    }
+    .galery .row .col-6 {
+        width: 300px;
+    }
+    .galery .row .col-6 img {
+        width: 350px;
+    }
+
+    /* protokol */
+    .protokol {
+        margin-top: 0px;
+        width: 350px;
+        height: 556px;
+    }
+    .protokol .body {
+        width: 350px;
+    }
+    .protokol h1 {
+        font-size: 45px;
+        padding-top: 30px;
+    }
+    .protokol .col-4 {
+        width: 116px;
+    }
+    .protokol .col-4 img {
+        width: 59px;
+    }
+    .protokol .col-4 h5 {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+
+    /* gift */
+    .gift h5 {
+        font-size: 40px;
+    }
+    .gift p {
+        font-size: 14px;
+        width: 300px;
+    }
+
+    /* penutup */
+    .penutup p {
+        font-size: 15px;
+        width: 300px;
+    }
+    .penutup img {
+        width: 168px;
+        height: 160px;
+    }
+    .penutup h5 {
+        font-size: 35px;
+    }
+
+    /* ucapan */
+    .ucapan .header {
+        font-size: 15px;
+        width: 300px;
+    }
+    .ucapan .card-ucapan {
+        width: 300px;
+    }
+    .ucapan button {
+        margin-left: 130px;
+    }
+
+    /* play */
+    .play button {
+        margin-left: 10px;
+    }
+
+    /* menu */
+    .menu {
+        height: 76px;
+        width: 350px;
+        background: #633439;
+        bottom: 0;
+        left: 0;
+    }
+    .menu .card-menu {
+        width: 56px;
+        height: 56px;
+        background: #633439;
+        margin: 10px 5px 0 5px;
+        box-shadow: 0 0 5px white;
+        border-radius: 10px;
+    }
+    .menu .card-menu img {
+        filter: brightness(0%) contrast(181%) saturate(106%) blur(0px);
+        width: 46px;
+    }
+}
