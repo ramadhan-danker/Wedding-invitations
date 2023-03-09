@@ -8,6 +8,8 @@ use App\Http\Controllers\Undangan5Controller;
 use App\Http\Controllers\Undangan6Controller;
 use App\Http\Controllers\Undangan7Controller;
 use App\Http\Controllers\Undangan8Controller;
+use App\Models\Theme;
+use Filament\Forms\Components\Radio;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +27,11 @@ Route::resource('/undangan-5', Undangan5Controller::class);
 Route::resource('/undangan-6', Undangan6Controller::class);
 Route::resource('/undangan-7', Undangan7Controller::class);
 Route::resource('/undangan-8', Undangan8Controller::class);
+
+
+
+// Radio button
+Route::post('/admin/undangans', [RadioController::class, 'getRadio']);
 Route::get('/', function () {
     return view('welcome');
 });

@@ -4,10 +4,15 @@ namespace App\Filament\Resources\UndanganResource\Pages;
 
 use Filament\Pages\Actions;
 use Livewire\TemporaryUploadedFile;
+use Filament\Forms\Components\Radio;
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Wizard;
+use Illuminate\Validation\Rules\Enum;
 use Filament\Forms\Components\Textarea;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\ViewField;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Wizard\Step;
 use Filament\Resources\Pages\ManageRecords;
@@ -22,39 +27,42 @@ class ManageUndangans extends ManageRecords
     {
         return [
             Actions\CreateAction::make()->steps([
+                Step::make('Pilih Tema')->schema([
+                    ViewField::make('theme_id')->view('forms.components.radio-theme')->required()
+                ]),
                 Step::make('Pengantin laki-laki')->schema([
                     TextInput::make('namaPriaLengkap')
                         ->required()
-                        ->maxLength(255),
+                        ->maxLength(255)->label('Nama Lengkap'),
                     TextInput::make('namaPanggilanPria')
                         ->required()
-                        ->maxLength(255),
+                        ->maxLength(255)->label('Nama Panggilan'),
                     TextInput::make('namaIbuPria')
                         ->required()
-                        ->maxLength(255),
+                        ->maxLength(255)->label('Nama Ibu'),
                     TextInput::make('namaBapakPria')
                         ->required()
-                        ->maxLength(255),
+                        ->maxLength(255)->label('Nama Bapak'),
                     TextInput::make('anakKeBerapaPria')
                         ->required()
-                        ->maxLength(255),
+                        ->maxLength(255)->label('Anak Ke Berapa'),
                 ])->columns(2),
                 Step::make('Pengantin wanita')->schema([
                     TextInput::make('namaPerempuanLengkap')
                         ->required()
-                        ->maxLength(255),
+                        ->maxLength(255)->label('Nama Lengkap'),
                     TextInput::make('namaPanggilanPerempuan')
                         ->required()
-                        ->maxLength(255),
+                        ->maxLength(255)->label('Nama Panggilan'),
                     TextInput::make('namaBapakPerempuan')
                         ->required()
-                        ->maxLength(255),
+                        ->maxLength(255)->label('Nama Bapak'),
                     TextInput::make('namaIbuPerempuan')
                         ->required()
-                        ->maxLength(255),
+                        ->maxLength(255)->label('Nama Ibu'),
                     TextInput::make('anakKeBerapaPerempuan')
                         ->required()
-                        ->maxLength(255),
+                        ->maxLength(255)->label('Anak Ke Berapa'),
                 ])->columns(2),
                 Step::make('Acara')->schema([
                     TextInput::make('alamat')

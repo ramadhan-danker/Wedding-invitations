@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('undangans', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('theme_id');
             $table->string('namaPriaLengkap');
             $table->string('namaPerempuanLengkap');
             $table->string('namaPanggilanPria');
